@@ -1,9 +1,10 @@
 import './HalalConnectPage.css';
+import NavBar from './NavBar';
 
 function HalalConnectPage() {
   return (
     <div className="halal-connect-page">
-        Halal connect
+        <NavBar/>
     </div>
   );
 }
