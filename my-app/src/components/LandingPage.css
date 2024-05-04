@@ -4,5 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .header { 
+        background-image: url('../assets/landing-map.svg')
+    }
   }
   
