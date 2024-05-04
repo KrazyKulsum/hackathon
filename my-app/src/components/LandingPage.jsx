@@ -1,9 +1,14 @@
+import About from './About';
+import Heading from './Heading';
 import './LandingPage.css';
+import Button from './SearchButton';
 
 function LandingPage() {
   return (
     <div className="landing-page">
-        Halal Connect
+        <Heading/>
+        <Button/>
+       <About/>
     </div>
   );
 }
